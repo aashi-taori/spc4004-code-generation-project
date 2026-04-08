@@ -3,7 +3,7 @@
 ## Prompt 1 - Initial Code (iteration_1_initial.py)
 "Write Python code to predict credit card default using a decision tree 
 classifier. Load the dataset from a CSV file called 'credit_default.csv'. 
-The target column is called 'default payment next month'. Train a decision 
+The target column is called 'default.payment.next.month'. Train a decision 
 tree on the data and print the accuracy."
 
 ## Prompt 2 - Adding Evaluation Metrics (iteration_2_eval_metrics.py)
