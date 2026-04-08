@@ -14,8 +14,8 @@ from sklearn.metrics import (
 df = pd.read_csv("credit_default.csv")
 
 # Features and target
-X = df.drop("default payment next month", axis=1)
-y = df["default payment next month"]
+X = df.drop('default.payment.next.month', axis=1)
+y = df['default.payment.next.month']
 
 # Convert categorical columns if any
 X = pd.get_dummies(X, drop_first=True)
